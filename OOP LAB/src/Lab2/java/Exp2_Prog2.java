@@ -4,13 +4,13 @@ public class Exp2_Prog2 {
 	{
 		int i = 0,j= 0;
 		i=Integer.parseInt(args[0]);
-		j=Integer.parseInt(args[1]);
+		j=Integer.parseInt(args[2]);
 		
-		if(args[2].equals("+"))
+		if(args[1].equals("+"))
         {
             System.out.println(+(i+j));
         }
-		else if(args[2].equals("-"))
+		else if(args[1].equals("-"))
         {
           if(i > j)
             {
@@ -21,11 +21,11 @@ public class Exp2_Prog2 {
                 System.out.println(+(j-i));
             }
     	}
-		else if(args[2].equals("*"))
+		else if(args[1].equals("*"))
         {
             System.out.println(+(j*i));
         }
-        else if (args[2].equals("/"))
+        else if (args[1].equals("/"))
         {
             System.out.println(+(j/i));
         } 
