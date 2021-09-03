@@ -27,13 +27,10 @@ public class Exp3_Prog1 {
                        System.out.println(array[x] + "" + array[y] + "" + array[z]);
 
                    }
-
                }
-
            }
 
        }
-
    }
 
 }
