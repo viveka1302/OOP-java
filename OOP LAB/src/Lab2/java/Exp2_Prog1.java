@@ -7,15 +7,15 @@ public class Exp2_Prog1 {
 		k=Integer.parseInt(args[2]);
 		if(i > j && i > k)
         {
-            System.out.println("Largest number is:"+i);
+            System.out.println("Largest no. is:"+i);
         }
         else if(j > k)
         {
-            System.out.println("Largest number is:"+j);
+            System.out.println("Largest no. is:"+j);
         }
         else
         {
-            System.out.println("Largest number is:"+k);
+            System.out.println("Largest no. is:"+k);
         }
 	}
 }
