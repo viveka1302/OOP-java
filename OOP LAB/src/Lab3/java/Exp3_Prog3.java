@@ -1,12 +1,9 @@
 package Lab3.java;
-
 public class Exp3_Prog3 {
 	public static void main(String[] args)
 	{
-
 		int i = 0;
-		i =Integer.parseInt(args[0]);
-		
+		i =Integer.parseInt(args[0]);		
 		if(args[0].equals("1"))
         {
             System.out.println("January");
